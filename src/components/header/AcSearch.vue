@@ -9,23 +9,27 @@
 </template>
 
 <style lang="scss" scoped>
+@import '@/assets/css_var.scss';
 #search-container {
   display: grid;
   .search-input {
     place-self: center;
+    border: $b1;
+    border-radius: $br;
     input {
-      height: .4rem;
+      height: $h1;
       width: 2.6rem;
-      font-size: .2rem;
-      border: 0.01rem solid #87CEEB;
+      font-size: $f2;
+      border-radius: $br;
+      padding: 0.05rem;
     }
     button {
       height: .4rem;
       width: .6rem;
-      font-size: .2rem;
-      background: #87CEEB;
-      border-left: 0.01rem solid gray;
-      border-radius: 0.02rem;
+      font-size: $f2;
+      color: $c1;
+      margin-left: 0.01rem;
+      border-left: $b1;
     }
   }
   

@@ -1,1 +1,38 @@
 $dev_border: 1px solid red;
+// 颜色
+$c2: #F35B83;
+$c1: #3EABE8;
+$c3: #EBF7F3;
+// 边框
+$b1: 0.01rem solid $c1;
+$b2: 0.01rem solid $c2;
+$bd1: 0.01rem dashed $c1;
+$bd2: 0.01rem dashed $c2;
+$br: 0.02rem;
+$br3: 0.03rem;
+$br5: 0.05rem;
+$br10: 0.1rem;
+
+// 字体大小
+$f1: 0.12rem;
+$f2: 0.16rem;
+$f3: 0.2rem;
+$f4: 0.3rem;
+
+// 高度
+$h1: 0.4rem;
+$h2: 0.3rem;
+$h3: 1.2rem;
+
+// 宽度
+$w1: 3rem;
+
+// 间距  Spacing
+$sp1: 0.1rem;
+$sp2: 0.2rem;
+$sp_5: 0.05rem;
+
+// box-shadow
+$bs: 0.01rem 0.04rem 0.08rem 0 rgba(0, 0, 0, 0.2), 0 0.06rem 0.2rem 0 rgba(0, 0, 0, 0.19);
+// $bs: 0 0.04rem 0.08rem 0 $c1, 0 0.06rem 0.2rem 0 $c1;
+

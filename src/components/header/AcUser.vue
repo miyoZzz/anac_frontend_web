@@ -4,9 +4,11 @@
       <a>{{ userinfo.nickname }}</a>
     </div>
     <div v-else class="offline">
-      <router-link to="login" class="jump-login">登录</router-link>
-      <span>-</span>
-      <router-link to="register" class="jump-register">注册</router-link>
+      <button class="jump-login">登录</button>
+      <button class="jump-register">注册</button>
+      <!-- <router-link to="login" class="jump-login">登录</router-link> -->
+      <!-- <span>-</span> -->
+      <!-- <router-link to="register" class="jump-register">注册</router-link> -->
     </div>
   </div>
 </template>
@@ -29,16 +31,30 @@ export default {
 <style lang="scss" scoped>
 #user-container {
   display: grid;
-  place-items: center;
   .online {
-    font-size: .2rem;
+    place-self: center;
+    font-size: $f2;
   }
   .offline {
+    display: grid;
+    justify-self: start;
+    align-self: center;
+    grid-column-gap: $sp2;
+    grid-template-columns: 1fr 1fr;
+
     .jump-login {
-      font-size: .2rem;
+      height: $h2;
+      width: 0.8rem;
+      font-size: $f2;
+      border: $b1;
+      border-radius: $br3;
     }
     .jump-register {
-      font-size: .2rem;
+      height: $h2;
+      width: 0.8rem;
+      font-size: $f2;
+      border: $b1;
+      border-radius: $br3;
     }
   }
 }

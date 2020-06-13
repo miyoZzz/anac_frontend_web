@@ -11,8 +11,9 @@ export default {
 <style lang="scss" scoped>
   #nav-container {
     display: grid;
-    border-top: .01rem solid gray ;
-    background: #323233;
+    // border-top: .01rem solid gray ;
+    background: $c2;
     grid-area: nav;
+    box-shadow: $bs;
   }
 </style>
